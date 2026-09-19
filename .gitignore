@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.sites-runtime/
+.env*
+*.tsbuildinfo
+test-results/
+playwright-report/
+.pnpm-store/
+output/

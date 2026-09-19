@@ -1,0 +1,1 @@
+const fs=require('node:fs');const p=JSON.parse(fs.readFileSync('package.json','utf8').replace(/^\uFEFF/,''));p.scripts.start='node scripts/preview.cjs';fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\n');

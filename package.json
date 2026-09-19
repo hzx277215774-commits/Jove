@@ -1,0 +1,27 @@
+{
+  "name": "mang-flux-archive",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "node scripts/preview.cjs",
+    "typecheck": "tsc --noEmit",
+    "qa": "node scripts/qa-bilingual.cjs"
+  },
+  "dependencies": {
+    "next": "^15.5.12",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "@playwright/test": "^1.51.0"
+  }
+}

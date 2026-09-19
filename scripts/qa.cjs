@@ -1,0 +1,1 @@
+require('./qa-bilingual.cjs');

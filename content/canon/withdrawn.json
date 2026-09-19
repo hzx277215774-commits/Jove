@@ -1,0 +1,75 @@
+{
+  "status": "DEPRECATED",
+  "public": false,
+  "reason": "Previous AI-expanded information was not approved by the author. Never import this manifest into public code.",
+  "groups": [
+    {
+      "kind": "geography",
+      "items": [
+        "青陆",
+        "苍陆",
+        "赤陆",
+        "听潮城",
+        "天脊山脉",
+        "回川",
+        "无名故城",
+        "寂芒原",
+        "沉镜海",
+        "不归林",
+        "烬息渊",
+        "悬天墟"
+      ],
+      "notes": "Withdraw continents, cities, five restricted zones, coordinates and invented histories."
+    },
+    {
+      "kind": "history",
+      "items": [
+        "始芒纪",
+        "观流纪",
+        "筑城纪",
+        "断流之夜",
+        "归芒纪"
+      ],
+      "notes": "Withdraw all invented chronology and dates."
+    },
+    {
+      "kind": "characters",
+      "items": [
+        "旧版人物身份与背景",
+        "记忆代价",
+        "人物关系与命运",
+        "虚构人物与组织"
+      ],
+      "notes": "Only author artwork and legible names remain."
+    },
+    {
+      "kind": "creatures",
+      "items": [
+        "青枝鹿谱系",
+        "未经批准的四类生态标签",
+        "灯笼伙伴的推断背景",
+        "异形甲胄的生物归类"
+      ],
+      "notes": "Keep visuals without invented classification or ecology."
+    },
+    {
+      "kind": "story",
+      "items": [
+        "不会熄灭的芒种",
+        "失落河图",
+        "断流历史",
+        "旧版序章与旅人剧情"
+      ],
+      "notes": "Do not reuse AI story or infer plot from illustrations."
+    },
+    {
+      "kind": "assets",
+      "items": [
+        "map.webp",
+        "landscape.webp",
+        "characters.webp"
+      ],
+      "notes": "Generated assets are kept offline in assets/deprecated, never used in the public archive."
+    }
+  ]
+}

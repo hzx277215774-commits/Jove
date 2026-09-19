@@ -1,0 +1,20 @@
+export interface ArtAsset { src: string; panel?: number; fit?: 'cover' | 'contain'; position?: string; background?: string }
+export const artAssets: Record<string, ArtAsset> = {
+  landscape: { src: '/art/portfolio/valley.webp' },
+  wanderer: { src: '/art/portfolio/guyuan.webp', fit: 'contain', background: '#c6c0aa' },
+  archivist: { src: '/art/portfolio/liurumian.webp', fit: 'contain', background: '#b3c4c2' },
+  deer: { src: '/art/portfolio/guardian.webp', fit: 'contain', background: '#968772' },
+  coast: { src: '/art/portfolio/coast.webp' },
+  wuyin: { src: '/art/portfolio/wuyin.webp' },
+  clouds: { src: '/art/portfolio/cloud-palace.webp' },
+  relic: { src: '/art/portfolio/relic.webp' },
+  journey: { src: '/art/portfolio/journey.webp' },
+  lineup: { src: '/art/portfolio/character-lineup.webp', fit: 'contain', background: '#ddd7c9' },
+  study: { src: '/art/portfolio/character-study.webp', fit: 'contain', background: '#cec7ac' },
+  lantern: { src: '/art/portfolio/lantern.webp', fit: 'contain', background: '#a4978d' },
+  lanternStudy: { src: '/art/portfolio/lantern-study.webp', fit: 'contain', background: '#a4978d' },
+  guardian: { src: '/art/portfolio/guardian.webp', fit: 'contain', background: '#968772' },
+  guardianSheet: { src: '/art/portfolio/guardian-sheet.webp', fit: 'contain', background: '#968772' },
+  guyuanSheet: { src: '/art/portfolio/guyuan-sheet.webp', fit: 'contain' },
+  liuSheet: { src: '/art/portfolio/liurumian-sheet.webp', fit: 'contain' },
+};
